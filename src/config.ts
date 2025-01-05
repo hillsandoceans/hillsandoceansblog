@@ -8,7 +8,7 @@ const buildConfig = () => {
   const defaultDescription = process.env.NEXT_PUBLIC_BLOG_DESCRIPTION || "Blog about hiking and travel";
 
   return {
-    baseUrl: process.env.NEXT_PUBLIC_BASE_URL || https://imagedelivery.net/,
+    baseUrl: process.env.NEXT_PUBLIC_BASE_URL || 'https://imagedelivery.net/',
     blog: {
       name,
       copyright,
