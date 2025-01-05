@@ -7,8 +7,7 @@ import Markdown from "react-markdown";
 const content = `
 ## About Us
 
-![About1](https://github.com/hillsandoceans/hillsandoceansblog/blob/main/public/images/emosson1.jpeg)
-
+![About1](https://raw.githubusercontent.com/hillsandoceans/hillsandoceansblog/main/public/images/emosson1.jpeg)
 Hello there!
 
 Welcome to our little space, where we bring you stories from places and people!
@@ -20,8 +19,6 @@ This is our way of sharing it all with you— the hikes, nature, cities, and sto
 Love,
 
 Suyash and Vaibhavi
-
-## More About Us
 
 ## Connect with Us
 
