@@ -11,15 +11,6 @@ interface Params {
   slug: string;
 }
 
-export async function generateStaticParams() {
-  // Replace this with your logic to fetch all possible slugs
-  const slugs = ['example-tag', 'another-tag', 'third-tag']; 
-
-  return slugs.map((slug) => ({
-    slug, // This matches the dynamic [slug] parameter
-  }));
-}
-
 export async function generateMetadata({
   params: { slug },
 }: {

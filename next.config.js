@@ -1,8 +1,12 @@
-/** @type {import('next').NextConfig} */
+/** 
+* @type {import('next').NextConfig} 
+*/
 const nextConfig = {
     output: 'export',
-    basePath: '/hillsandoceans',
-    assetPrefix: '/hillsandoceans',
+    distDir: 'dist',
+    images: {
+      unoptimized:true,
+    }
   };
   
   module.exports = nextConfig;
