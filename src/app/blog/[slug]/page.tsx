@@ -8,6 +8,15 @@ import { wisp } from "@/lib/wisp";
 import { notFound } from "next/navigation";
 import type { BlogPosting, WithContext } from "schema-dts";
 
+export async function generateStaticParams() {
+  // Replace this with your logic to fetch all possible slugs
+  const slugs = ['example-tag', 'another-tag', 'third-tag']; 
+
+  return slugs.map((slug) => ({
+    slug, // This matches the dynamic [slug] parameter
+  }));
+}
+
 export async function generateMetadata({
   params: { slug },
 }: {
