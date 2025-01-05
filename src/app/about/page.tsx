@@ -7,7 +7,7 @@ import Markdown from "react-markdown";
 const content = `
 ## About Us
 
-![About1](http://localhost:3000/images/arni1.jpeg)
+![About1](https://github.com/hillsandoceans/hillsandoceansblog/blob/main/public/images/emosson1.jpeg)
 
 Hello there!
 
