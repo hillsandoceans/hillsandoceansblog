@@ -8,6 +8,10 @@ import { wisp } from "@/lib/wisp";
 import { notFound } from "next/navigation";
 import type { BlogPosting, WithContext } from "schema-dts";
 
+export function generateStaticParams() {
+  return [{ id: '1' }, { id: '2' }, { id: '3' }]
+}
+ 
 export async function generateMetadata({
   params: { slug },
 }: {
