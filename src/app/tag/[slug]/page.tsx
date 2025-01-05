@@ -11,10 +11,6 @@ interface Params {
   slug: string;
 }
 
-export async function generateStaticParams() {
-  const pages = [1, 2, 3];
-  return pages.map((page) => ({ page: `${page}` }));
-}
 
 export async function generateMetadata({
   params: { slug },

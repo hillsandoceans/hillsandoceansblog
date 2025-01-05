@@ -8,10 +8,7 @@ import { wisp } from "@/lib/wisp";
 import { notFound } from "next/navigation";
 import type { BlogPosting, WithContext } from "schema-dts";
 
-export async function generateStaticParams() {
-  const pages = [1, 2, 3];
-  return pages.map((page) => ({ page: `${page}` }));
-}
+
 
 export async function generateMetadata({
   params: { slug },
