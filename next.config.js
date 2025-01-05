@@ -1,4 +1,8 @@
-// module.exports = {
-//   output: 'export',
-//   basePath: '/hillsandoceans', // Replace with your GitHub repository name
-// };
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    output: 'export',
+    basePath: '/hillsandoceans/',
+    assetPrefix: '/hillsandoceans/',
+  };
+  
+  module.exports = nextConfig;
